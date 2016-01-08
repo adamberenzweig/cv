@@ -25,7 +25,7 @@ Adam L. Berenzweig
 
 ## Interests, goals, and expertise.
 
-I've spent most of my career so far building products around machine learning.  I enjoy taking the
+I've spent most of my career building products around machine learning.  I enjoy taking the
 latest research breakthroughs and figuring out how to apply them in useful, high-impact projects.
 I have broad knowledge of systems architecture, the product lifecycle, UI/UX best practices,
 machine learning and data science.
