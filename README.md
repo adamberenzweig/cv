@@ -5,7 +5,7 @@ Edit the markdown cv.md.
 
 Make the html and pdf versions with:
 
-    make cv.pdf index.html
+    make adam-berenzweig-cv.pdf index.html
 
 Push to the gh-pages branches to publish the html to:
 

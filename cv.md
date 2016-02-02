@@ -56,7 +56,7 @@ Accomplishments:
 * Launched an image and video recognition service backed by deep convolutional neural networks
   running on GPUs.
 * Launched a search and indexing service with visual search, auto-tagging, visual clustering, and
-  combined visual/metadata query capabalities.
+  combined visual/metadata query capabilities.
 * Raised a series A, grew from zero to 30 employees and significant revenue.
 * Launched [Forevery](https://itunes.apple.com/app/apple-store/id1005812175?mt=8),
   a consumer photo organization mobile app powered by Clarifai's API.
@@ -89,11 +89,11 @@ A brief overview of projects and accomplishments:
 2007-2008
 :   **Google News**
 
-    I led a team to build of the first large-scale applications of NLP to Google News, to produce
-    named entity annotations and use them in various ways:
+    I led a team to build the first large-scale application of NLP to Google News, producing
+    named entity annotations and using them in various ways:
 
     * to improve search result ranking for certain news queries.
-    * to improve clustering of news articles into "stories" that evolve over time
+    * to improve clustering of news articles into stories that evolve over time
     * to extract authors from the byline
 
 
@@ -103,15 +103,15 @@ A brief overview of projects and accomplishments:
     [Realtime Search](https://en.wikipedia.org/wiki/Google_Real-Time_Search) was
     the first project to provide search results (mostly from Twitter) that streamed in
     real-time on the Google search results page.  I worked on the search infrastructure to support
-    real-time streaming.  Project won an OC (Organizing Committee) award.
+    real-time streaming.  The project won an OC (Organizing Committee) award.
 
 
 2012-2013
 :   **Goggles / Visual Search / Google Glass**
 
     I worked on Goggles, the first widely-used image recognition mobile app for consumers, during the
-    transition to move the technology into Google Photos.  I was also involved with some experiments
-    to use the recognition technology in Google Glass, specifically for a timelapse life-logging
+    transition from standalone app into Google Photos.  I was also involved with some experiments
+    to use recognition and computer vision in Google Glass, specifically for a timelapse life-logging
     system.
 
 2013
@@ -129,7 +129,7 @@ A brief overview of projects and accomplishments:
 :   **Non-project accomplishments**
 
     * Started and organized the CSA (community-supported agriculture) program in NYC, a local farm
-      share program. Grew to ~80 members in 3 years.
+      share program. Grew to 80+ members in 3 years.
     * Taught an internal training class (Life of a Query)
     * Career mentoring
 
@@ -140,10 +140,9 @@ A brief overview of projects and accomplishments:
 :   *NEC Research Institute*, Princeton NJ.
 
     I interned at NEC for two summers of my Ph.D., during the heydey when Vladimir Vapnik, Yann
-    LeCunn, Steve Lawrence, and other researchers were there doing pioneering work in machine learning and
+    LeCunn, Steve Lawrence, and others there were doing pioneering work in machine learning and
     information retrieval.  I worked with Brian Whitman on music information retrieval, 
-    a precursor to his company The Echo Nest (now part of Spotify), and my work on content-based recommendation
-    for the Google Play Music service.
+    a precursor to his company The Echo Nest (now part of Spotify) and my work for the Google Play Music service.
 
 1997-2000
 :   *Lucent Technologies*, Whippany NJ.
