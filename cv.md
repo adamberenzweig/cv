@@ -1,11 +1,3 @@
-<!-- 
-some approaches:
-* http://bitlyfied.com/2013/03/14/markdown-cv/
-* https://mszep.github.io/pandoc_resume/
-
-e.g.: (although not pretty)
-pandoc -t html5 --from=markdown --output=cv.pdf cv.md 
--->
 Adam L. Berenzweig
 ===============
 
@@ -17,7 +9,7 @@ Adam L. Berenzweig
 </tr>
 <tr>
 <td>[http://berenzweig.com/adam](http://berenzweig.com/adam)</td>
-<td>[https://www.linkedin.com/in/adam-berenzweig-3b290](https://www.linkedin.com/in/adam-berenzweig-3b290)</td>
+<td>[https://www.linkedin.com/in/madadam/](https://www.linkedin.com/in/madadam/)</td>
 </tr>
 </table>
 
@@ -46,6 +38,29 @@ Research and engineering expertise includes:
 * Engineering management.
 
 
+## CTRL-labs
+
+In June 2016, I joined [CTRL-labs](http://ctrl-labs.com), a neurotech startup
+building a practical neural interface, worn on the arm, that decodes the signals flowing
+from your brain to your hand. The goal is to be the primary input technology
+for the next personal computing platform -- when your computer is worn on your body,
+such as eyeglasses.
+
+As Director of R&D, my role was to ask "What is this thing good for?" I launched and led projects,
+steered the technical direction of the science
+and human-interactions teams, and contributed directly to core demos used for fund-raising and
+eventually our
+[acquisition by Facebook](https://www.cnbc.com/2019/09/23/facebook-announces-acquisition-of-brain-computing-start-up-ctrl-labs.html).
+
+Talks, press, and podcasts:
+
+* [Rethinking HCI with Neural Interfaces](https://www.infoq.com/presentations/hci-ctrllabsco/),
+  QCON 2018
+* [Practical AI](https://changelog.com/practicalai/41), The
+  Changelog's AI podcast.
+* [Brain-Machine Interface Isn't Sci-fi Anymore](https://www.wired.com/story/brain-machine-interface-isnt-sci-fi-anymore/), Steven Levy, Wired, September 2017.
+* [Facebook buys startup building neural monitoring armband](https://techcrunch.com/2019/09/23/facebook-buys-startup-building-neural-monitoring-armband/),
+  TechCrunch, September 2019.
 
 ## Clarifai
 
@@ -109,10 +124,12 @@ A brief overview of projects and accomplishments:
 2012-2013
 :   **Goggles / Visual Search / Google Glass**
 
-    I worked on Goggles, the first widely-used image recognition mobile app for consumers, during the
-    transition from standalone app into Google Photos.  I was also involved with some experiments
-    to use recognition and computer vision in Google Glass, specifically for a timelapse life-logging
-    system.
+    I worked on Goggles, the first widely-used image recognition
+    mobile app for consumers, during the transition from standalone
+    app into Google Photos.  I was also involved with some experiments
+    to use recognition and computer vision in Google Glass,
+    specifically for a timelapse life-logging system. Goggles was eventually
+    as Google Lens.
 
 2013
 :   **Colaboratory**
@@ -123,7 +140,7 @@ A brief overview of projects and accomplishments:
     in the browser and in backend execution kernels, and interactive visualizations with editable
     javascript.
 
-    The project was eventually open-sourced as part of the Jupyter project: [https://github.com/jupyter/colaboratory](https://github.com/jupyter/colaboratory).
+    The project was eventually launched as [Google Colab](https://colab.research.google.com/).
 
 2003-2013
 :   **Non-project accomplishments**
