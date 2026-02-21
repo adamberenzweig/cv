@@ -1,30 +1,33 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>cv</title>
   <style>
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="style.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
-<!-- 
-some approaches:
-* http://bitlyfied.com/2013/03/14/markdown-cv/
-* https://mszep.github.io/pandoc_resume/
-
-e.g.: (although not pretty)
-pandoc -t html5 --from=markdown --output=cv.pdf cv.md 
--->
 <h1 id="adam-l.-berenzweig">Adam L. Berenzweig</h1>
 <hr />
 <table width="100%">
@@ -33,140 +36,257 @@ pandoc -t html5 --from=markdown --output=cv.pdf cv.md
 adam.b@gmail.com
 </td>
 <td>
-<a href="https://github.com/adamberenzweig">https://github.com/adamberenzweig</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="http://berenzweig.com/adam">http://berenzweig.com/adam</a>
-</td>
-<td>
-<a href="https://www.linkedin.com/in/madadam/">https://www.linkedin.com/in/madadam/</a>
+<a
+href="https://www.linkedin.com/in/madadam/">https://www.linkedin.com/in/madadam/</a>
 </td>
 </tr>
 </table>
 <hr />
-<h2 id="interests-goals-and-expertise.">Interests, goals, and expertise.</h2>
-<p>I’ve spent most of my career building products around machine learning. I enjoy taking the latest research breakthroughs and figuring out how to apply them in useful, high-impact projects. I have broad knowledge of systems architecture, the product lifecycle, UI/UX best practices, machine learning and data science.</p>
-<p>It will be years before we fully sort out the implications of the recent rapid progress in machine learning. There are incredible opportunities, and some serious challenges, both technical and social. I feel lucky to be able to contribute to the conversation.</p>
+<h2 id="interests-goals-and-expertise.">Interests, goals, and
+expertise.</h2>
+<p>I’ve spent most of my career building products around machine
+learning. I enjoy taking the latest research breakthroughs and figuring
+out how to apply them in useful, high-impact projects. I have broad
+knowledge of systems architecture, the product lifecycle, and machine
+learning.</p>
 <p>Research and engineering expertise includes:</p>
 <ul>
 <li>Machine learning, information retrieval, recommender systems.</li>
-<li>Machine perception (speech and vision, auditory scene analysis).</li>
-<li>NLP, text analysis (named entity annotation).</li>
+<li>Machine perception (speech and vision, auditory scene
+analysis).</li>
+<li>Neuromotor interfaces, HCI, UI/UX and interaction design.</li>
+<li>NLP, language models, linguistics.</li>
 <li>Knowledge graphs and reconciliation.</li>
-<li>Engineering large-scale distributed systems, RPC services and data workflow systems.</li>
-<li>Engineering and operations best practices, continuous deployment and testing.</li>
+<li>Engineering large-scale distributed systems, RPC services and data
+workflow systems.</li>
+<li>Engineering and operations best practices, continuous deployment and
+testing.</li>
 <li>Engineering management.</li>
 </ul>
-<h2 id="ctrl-labs">CTRL-labs</h2>
-<p>In June 2016, I joined <a href="http://ctrl-labs.com">CTRL-labs</a>, a neurotech startup building a practical neural interface, worn on the arm, that decodes the signals flowing from your brain to your hand. The goal is to be the primary input technology for the next personal computing platform – when your computer is worn on your body, such as eyeglasses.</p>
-<p>As Director of R&amp;D, my role was to ask “What is this thing good for?” I launched and led projects, steered the technical direction of the science and human-interactions teams, and contributed directly to core demos used for fund-raising and eventually our <a href="https://www.cnbc.com/2019/09/23/facebook-announces-acquisition-of-brain-computing-start-up-ctrl-labs.html">acquisition by Facebook</a>.</p>
+<h2 id="ctrl-labs-and-meta">CTRL-labs and Meta</h2>
+<p>In June 2016, I joined CTRL-labs, a neurotech startup building a
+practical neural interface, worn on the arm, that decodes the signals
+flowing from your brain to your hand. The goal was to be the primary
+input technology for the next personal computing platform – when your
+computer is worn on your body, such as eyeglasses.</p>
+<p>As Director of R&amp;D, my role was to ask “What is this thing good
+for?” I launched and led projects, steered the technical direction of
+the science and human-interactions teams, and contributed directly to
+core demos used for fund-raising and eventually our <a
+href="https://www.cnbc.com/2019/09/23/facebook-announces-acquisition-of-brain-computing-start-up-ctrl-labs.html">acquisition
+by Facebook/Meta</a>.</p>
+<p>At Meta, my focus was solving the text input problem, for the times
+you don’t want to talk out loud to your computer. I started and led two
+big efforts, first around two-hand surface typing and then handwriting
+(appropriate for a one-handed product scenario). - The surface-typing
+project was reported as the emg2qwerty dataset, open-sourced in a
+NeurIPS 2024 data track paper. - The handwriting decoder was reported as
+one of the tasks in our group’s foundational EMG paper, accepted in
+Nature (available in preprint on bioarxiv) and visible in the demo shown
+at ICASSP 2024 (below).</p>
+<p>In early 2026, <a
+href="https://www.engadget.com/wearables/handwriting-is-my-new-favorite-way-to-text-with-the-meta-ray-ban-display-glasses-213744708.html">handwriting
+with the Neural Band</a> launched for the Meta Ray-Ban Display.</p>
 <p>Talks, press, and podcasts:</p>
 <ul>
-<li><a href="https://www.infoq.com/presentations/hci-ctrllabsco/">Rethinking HCI with Neural Interfaces</a>, QCON 2018</li>
-<li><a href="https://changelog.com/practicalai/41">Practical AI</a>, The Changelog’s AI podcast.</li>
-<li><a href="https://www.wired.com/story/brain-machine-interface-isnt-sci-fi-anymore/">Brain-Machine Interface Isn’t Sci-fi Anymore</a>, Steven Levy, Wired, September 2017.</li>
-<li><a href="https://techcrunch.com/2019/09/23/facebook-buys-startup-building-neural-monitoring-armband/">Facebook buys startup building neural monitoring armband</a>, TechCrunch, September 2019.</li>
+<li><a
+href="https://www.infoq.com/presentations/hci-ctrllabsco/">Rethinking
+HCI with Neural Interfaces</a>, QCON 2018</li>
+<li><a href="https://changelog.com/practicalai/41">Practical AI</a>, The
+Changelog’s AI podcast.</li>
+<li><a
+href="https://www.wired.com/story/brain-machine-interface-isnt-sci-fi-anymore/">Brain-Machine
+Interface Isn’t Sci-fi Anymore</a>, Steven Levy, Wired, September
+2017.</li>
+<li><a
+href="https://techcrunch.com/2019/09/23/facebook-buys-startup-building-neural-monitoring-armband/">Facebook
+buys startup building neural monitoring armband</a>, TechCrunch,
+September 2019.</li>
+<li><a
+href="https://www.engadget.com/wearables/handwriting-is-my-new-favorite-way-to-text-with-the-meta-ray-ban-display-glasses-213744708.html">Handwriting
+is my new favorite way to text with the Meta Ray-Ban Display
+glasses</a>, Engadget, Jan 2026.</li>
 </ul>
 <h2 id="clarifai">Clarifai</h2>
-<p>In early 2014 I helped start <a href="http://www.clarifai.com">Clarifai</a>, a machine learning and image recognition company, with Matt Zeiler. I served as CTO from founding through 2016.</p>
+<p>In early 2014 I helped start <a
+href="http://www.clarifai.com">Clarifai</a>, a machine learning and
+image recognition company, with Matt Zeiler. I served as CTO from
+founding through 2016.</p>
 <p>Accomplishments:</p>
 <ul>
-<li>Launched an image and video recognition service backed by deep convolutional neural networks running on GPUs.</li>
-<li>Launched a search and indexing service with visual search, auto-tagging, visual clustering, and combined visual/metadata query capabilities.</li>
-<li>Raised a series A, grew from zero to 30 employees and significant revenue.</li>
-<li>Launched <a href="https://itunes.apple.com/app/apple-store/id1005812175?mt=8">Forevery</a>, a consumer photo organization mobile app powered by Clarifai’s API.</li>
+<li>Launched an image and video recognition service backed by deep
+convolutional neural networks running on GPUs.</li>
+<li>Launched a search and indexing service with visual search,
+auto-tagging, visual clustering, and combined visual/metadata query
+capabilities.</li>
+<li>Raised a series A, grew from zero to 30 employees and significant
+revenue.</li>
+<li>Launched <a
+href="https://itunes.apple.com/app/apple-store/id1005812175?mt=8">Forevery</a>,
+a consumer photo organization mobile app powered by Clarifai’s API.</li>
 </ul>
-<p>Some talks I’ve given about Clarifai and current trends in computing driven by machine learning:</p>
+<p>Some talks I’ve given about Clarifai and current trends in computing
+driven by machine learning:</p>
 <ul>
-<li><a href="http://www.datasociety.net/events/databite-no-38-adam-berenzweig/">Databite 38</a>: Deep learning, machine perception, and the future of memory.</li>
-<li><a href="https://youtu.be/czLI3oLDe8M?t=1349">Stanford VLAB panel on deep learning</a>.</li>
+<li><a
+href="http://www.datasociety.net/events/databite-no-38-adam-berenzweig/">Databite
+38</a>: Deep learning, machine perception, and the future of
+memory.</li>
+<li><a href="https://youtu.be/czLI3oLDe8M?t=1349">Stanford VLAB panel on
+deep learning</a>.</li>
 </ul>
 <h2 id="google">Google</h2>
-<p>I was a software engineer at Google from 2003-2014. A brief overview of projects and accomplishments:</p>
+<p>I was a software engineer at Google from 2003-2014. A brief overview
+of projects and accomplishments:</p>
 <dl>
 <dt>2010-2012</dt>
-<dd><p><strong>Music Recommendation for Google Play Music</strong></p>
-<p>I was tech lead of the music recommendation team during the initial beta launch, and architected the recommendation service. I designed and helped build features and components such as:</p>
+<dd>
+<strong>Music Recommendation for Google Play Music</strong>
+I was tech lead of the music recommendation team during the initial beta
+launch, and architected the recommendation service. I designed and
+helped build features and components such as:
 <ul>
-<li>Instant Mix (content-based playlist generation). Covered here on the <a href="http://googleresearch.blogspot.com/2011/06/instant-mix-for-music-beta-by-google.html">Google Research Blog</a>.</li>
-<li>Personalized artist recommendations, using Samy Bengio and Jason Weston’s <a href="http://www.thespermwhale.com/jaseweston/papers/wsabie-ijcai.pdf">wsabie embeddings</a> for audio.</li>
-<li>Improved recommendations in the presence of a query, using <a href="http://research.google.com/pubs/pub40569.html">Latent Collaborative Retrieval</a> (with Jason Weston and Ron Weiss).</li>
-<li>Numerous engineering projects, including the recommendation signals data pipeline, the metadata service, and music metadata reconciliation for the Knowledge Graph.</li>
+<li>Instant Mix (content-based playlist generation). Covered here on the
+<a
+href="http://googleresearch.blogspot.com/2011/06/instant-mix-for-music-beta-by-google.html">Google
+Research Blog</a>.</li>
+<li>Personalized artist recommendations, using Samy Bengio and Jason
+Weston’s <a
+href="http://www.thespermwhale.com/jaseweston/papers/wsabie-ijcai.pdf">wsabie
+embeddings</a> for audio.</li>
+<li>Improved recommendations in the presence of a query, using <a
+href="http://research.google.com/pubs/pub40569.html">Latent
+Collaborative Retrieval</a> (with Jason Weston and Ron Weiss).</li>
+<li>Numerous engineering projects, including the recommendation signals
+data pipeline, the metadata service, and music metadata reconciliation
+for the Knowledge Graph.</li>
 </ul>
 </dd>
 <dt>2007-2008</dt>
-<dd><p><strong>Google News</strong></p>
-<p>I led a team to build the first large-scale application of NLP to Google News, producing named entity annotations and using them in various ways:</p>
+<dd>
+<strong>Google News</strong>
+I led a team to build the first large-scale application of NLP to Google
+News, producing named entity annotations and using them in various ways:
 <ul>
 <li>to improve search result ranking for certain news queries.</li>
-<li>to improve clustering of news articles into stories that evolve over time</li>
+<li>to improve clustering of news articles into stories that evolve over
+time</li>
 <li>to extract authors from the byline</li>
 </ul>
 </dd>
 <dt>2009-2010</dt>
-<dd><p><strong>Realtime Search</strong></p>
-<p><a href="https://en.wikipedia.org/wiki/Google_Real-Time_Search">Realtime Search</a> was the first project to provide search results (mostly from Twitter) that streamed in real-time on the Google search results page. I worked on the search infrastructure to support real-time streaming. The project won an OC (Organizing Committee) award.</p>
+<dd>
+<strong>Realtime Search</strong>
+<a href="https://en.wikipedia.org/wiki/Google_Real-Time_Search">Realtime
+Search</a> was the first project to provide search results (mostly from
+Twitter) that streamed in real-time on the Google search results page. I
+worked on the search infrastructure to support real-time streaming. The
+project won an OC (Organizing Committee) award.
 </dd>
 <dt>2012-2013</dt>
-<dd><p><strong>Goggles / Visual Search / Google Glass</strong></p>
-<p>I worked on Goggles, the first widely-used image recognition mobile app for consumers, during the transition from standalone app into Google Photos. I was also involved with some experiments to use recognition and computer vision in Google Glass, specifically for a timelapse life-logging system. Goggles was eventually as Google Lens.</p>
+<dd>
+<strong>Goggles / Visual Search / Google Glass</strong>
+I worked on Goggles, the first widely-used image recognition mobile app
+for consumers, during the transition from standalone app into Google
+Photos. I was also involved with some experiments to use recognition and
+computer vision in Google Glass, specifically for a timelapse
+life-logging system. Goggles was eventually as Google Lens.
 </dd>
 <dt>2013</dt>
-<dd><p><strong>Colaboratory</strong></p>
-<p>I helped steer a project to build a new document-based computing tool that unifies code with text and interactive visualization. I developed the product vision and hacked on early proof-of-concept demos, such as: an in-browser python kernel, two-way binding between data cells in the browser and in backend execution kernels, and interactive visualizations with editable javascript.</p>
-<p>The project was eventually launched as <a href="https://colab.research.google.com/">Google Colab</a>.</p>
+<dd>
+<strong>Colaboratory</strong>
+I helped steer a project to build a new document-based computing tool
+that unifies code with text and interactive visualization. I developed
+the product vision and hacked on early proof-of-concept demos, such as:
+an in-browser python kernel, two-way binding between data cells in the
+browser and in backend execution kernels, and interactive visualizations
+with editable javascript.
+The project was eventually launched as <a
+href="https://colab.research.google.com/">Google Colab</a>.
 </dd>
 <dt>2003-2013</dt>
-<dd><p><strong>Non-project accomplishments</strong></p>
+<dd>
+<strong>Non-project accomplishments</strong>
 <ul>
-<li>Started and organized the CSA (community-supported agriculture) program in NYC, a local farm share program. Grew to 80+ members in 3 years.</li>
+<li>Started and organized the CSA (community-supported agriculture)
+program in NYC, a local farm share program. Grew to 80+ members in 3
+years.</li>
 <li>Taught an internal training class (Life of a Query)</li>
 <li>Career mentoring</li>
 </ul>
 </dd>
 </dl>
-<h2 id="earlier-professional-experience">Earlier Professional Experience</h2>
+<h2 id="earlier-professional-experience">Earlier Professional
+Experience</h2>
 <dl>
 <dt>2001, 2002</dt>
-<dd><p><em>NEC Research Institute</em>, Princeton NJ.</p>
-<p>I interned at NEC for two summers of my Ph.D., during the heydey when Vladimir Vapnik, Yann LeCunn, Steve Lawrence, and others there were doing pioneering work in machine learning and information retrieval. I worked with Brian Whitman on music information retrieval, a precursor to his company The Echo Nest (now part of Spotify) and my work for the Google Play Music service.</p>
+<dd>
+<em>NEC Research Institute</em>, Princeton NJ.
+I interned at NEC for two summers of my Ph.D., during the heydey when
+Vladimir Vapnik, Yann LeCunn, Steve Lawrence, and others there were
+doing pioneering work in machine learning and information retrieval. I
+worked with Brian Whitman on music information retrieval, a precursor to
+his company The Echo Nest (now part of Spotify) and my work for the
+Google Play Music service.
 </dd>
 <dt>1997-2000</dt>
-<dd><p><em>Lucent Technologies</em>, Whippany NJ.</p>
-<p>Security Standards Architect, Wireless Networks.<br />
-I designed security architectures for wireless phone networks, and represented Lucent in industry standards bodies.</p>
+<dd>
+<em>Lucent Technologies</em>, Whippany NJ.
+Security Standards Architect, Wireless Networks.<br />
+I designed security architectures for wireless phone networks, and
+represented Lucent in industry standards bodies.
 </dd>
 <dt>1999-2000</dt>
-<dd><p><em>Learning In Progress, Inc.</em>, New York, NY.</p>
-<p>I co-founded an ed-tech company (we called it “e-learning” back then) with the mission of building better tools and games to teach computer programming and IT skills. We were about 10 years too soon.</p>
+<dd>
+<em>Learning In Progress, Inc.</em>, New York, NY.
+I co-founded an ed-tech company (we called it “e-learning” back then)
+with the mission of building better tools and games to teach computer
+programming and IT skills. We were about 10 years too soon.
 </dd>
 <dt>Summers 1995, 1996</dt>
-<dd><p><em>Hotjobs</em>, New York, NY</p>
-<p>After I built a website as an intern for a small technical recruiting firm in NY, the CEO asked me if I could put some of their job listings from the database up on the website. The resulting site evolved into Hotjobs, one of the darlings of the first dot-com boom.</p>
+<dd>
+<em>Hotjobs</em>, New York, NY
+After I built a website as an intern for a small technical recruiting
+firm in NY, the CEO asked me if I could put some of their job listings
+from the database up on the website. The resulting site evolved into
+Hotjobs, one of the darlings of the first dot-com boom.
 </dd>
 </dl>
 <h2 id="education">Education</h2>
 <dl>
 <dt>2006</dt>
-<dd><p>Ph.D., Electrical Engineering, Columbia University</p>
+<dd>
+Ph.D., Electrical Engineering, Columbia University
 <ul>
 <li>Dissertation: “Personalized music similarity metrics”</li>
 <li>Advisor: Daniel P.W. Ellis</li>
 </ul>
 </dd>
 <dt>2002</dt>
-<dd>M.S., Electrical Engineering, Columbia University
+<dd>
+M.S., Electrical Engineering, Columbia University
 </dd>
 <dt>1997</dt>
-<dd>B.S., Computer Science, Yale University
+<dd>
+B.S., Computer Science, Yale University
 </dd>
 </dl>
 <h2 id="publications">Publications</h2>
-<p>See <a href="https://scholar.google.com/citations?user=XlXvEfQAAAAJ">Google Scholar</a>.</p>
+<p>See <a
+href="https://scholar.google.com/citations?user=kwylb3sAAAAJ">Google
+Scholar</a>.</p>
 <h2 id="non-professional">Non-professional</h2>
-<p>I engineered and programmed the software for <a href="http://thewindmillfactory.com/?portfolio=reflecting-the-stars">Reflecting The Stars</a>, a public art installation on the Hudson River, for Jon Morris of <a href="http://www.thewindmillfactory.com/reflecting_the_stars.html">The Windmill Factory</a>. Covered in <a href="http://www.wired.com/underwire/2011/09/reflecting-the-stars">Wired</a> and <a href="http://video.nytimes.com/video/2011/10/06/arts/100000001096048/artsbeat-october-6-2011.html">The New York Times</a>.</p>
-<p>In a past life, I played and wrote music. I like to climb and surf, learn new languages, travel, and eat good food.</p>
+<p>I engineered and programmed the software for <a
+href="http://thewindmillfactory.com/?portfolio=reflecting-the-stars">Reflecting
+The Stars</a>, a public art installation on the Hudson River, for Jon
+Morris of <a
+href="http://www.thewindmillfactory.com/reflecting_the_stars.html">The
+Windmill Factory</a>. Covered in <a
+href="http://www.wired.com/underwire/2011/09/reflecting-the-stars">Wired</a>
+and <a
+href="http://video.nytimes.com/video/2011/10/06/arts/100000001096048/artsbeat-october-6-2011.html">The
+New York Times</a>.</p>
+<p>In a past life, I played and wrote music. I like to climb and surf,
+learn new languages, travel, and eat good food.</p>
 </body>
 </html>

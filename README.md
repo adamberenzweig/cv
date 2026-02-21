@@ -8,8 +8,7 @@ Forked from / inspired by:
 ## Install
 
 ```
-brew cask install wkhtmltopdf
-brew install pandoc
+brew install pandoc weasyprint
 ```
 
 ## Build

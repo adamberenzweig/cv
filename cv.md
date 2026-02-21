@@ -4,11 +4,8 @@ Adam L. Berenzweig
 ----
 
 <table width=100%>
-<tr><td>adam.b@gmail.com</td>
-<td>[https://github.com/adamberenzweig](https://github.com/adamberenzweig)</td>
-</tr>
 <tr>
-<td>[http://berenzweig.com/adam](http://berenzweig.com/adam)</td>
+<td>adam.b@gmail.com</td>
 <td>[https://www.linkedin.com/in/madadam/](https://www.linkedin.com/in/madadam/)</td>
 </tr>
 </table>
@@ -19,30 +16,25 @@ Adam L. Berenzweig
 
 I've spent most of my career building products around machine learning.  I enjoy taking the
 latest research breakthroughs and figuring out how to apply them in useful, high-impact projects.
-I have broad knowledge of systems architecture, the product lifecycle, UI/UX best practices,
-machine learning and data science.
-
-It will be years before we fully sort out the implications of the recent rapid progress in
-machine learning.  There are incredible opportunities, and some serious challenges, both technical
-and social.  I feel lucky to be able to contribute to the conversation.
-
+I have broad knowledge of systems architecture, the product lifecycle, and machine learning.
 
 Research and engineering expertise includes:
 
 * Machine learning, information retrieval, recommender systems.
 * Machine perception (speech and vision, auditory scene analysis).
-* NLP, text analysis (named entity annotation).
+* Neuromotor interfaces, HCI, UI/UX and interaction design.
+* NLP, language models, linguistics.
 * Knowledge graphs and reconciliation.
 * Engineering large-scale distributed systems, RPC services and data workflow systems.
 * Engineering and operations best practices, continuous deployment and testing.
 * Engineering management.
 
 
-## CTRL-labs
+## CTRL-labs and Meta
 
-In June 2016, I joined [CTRL-labs](http://ctrl-labs.com), a neurotech startup
+In June 2016, I joined CTRL-labs, a neurotech startup
 building a practical neural interface, worn on the arm, that decodes the signals flowing
-from your brain to your hand. The goal is to be the primary input technology
+from your brain to your hand. The goal was to be the primary input technology
 for the next personal computing platform -- when your computer is worn on your body,
 such as eyeglasses.
 
@@ -50,7 +42,14 @@ As Director of R&D, my role was to ask "What is this thing good for?" I launched
 steered the technical direction of the science
 and human-interactions teams, and contributed directly to core demos used for fund-raising and
 eventually our
-[acquisition by Facebook](https://www.cnbc.com/2019/09/23/facebook-announces-acquisition-of-brain-computing-start-up-ctrl-labs.html).
+[acquisition by Facebook/Meta](https://www.cnbc.com/2019/09/23/facebook-announces-acquisition-of-brain-computing-start-up-ctrl-labs.html).
+
+At Meta, my focus was solving the text input problem, for the times you don't want to talk out loud to your computer. I started and led
+two big efforts, first around two-hand surface typing and then handwriting (appropriate for a one-handed product scenario).
+- The surface-typing project was reported as the emg2qwerty dataset, open-sourced in a NeurIPS 2024 data track paper.
+- The handwriting decoder was reported as one of the tasks in our group's foundational EMG paper, accepted in Nature (available in preprint on bioarxiv) and visible in the demo shown at ICASSP 2024 (below).
+
+In early 2026, [handwriting with the Neural Band](https://www.engadget.com/wearables/handwriting-is-my-new-favorite-way-to-text-with-the-meta-ray-ban-display-glasses-213744708.html) launched for the Meta Ray-Ban Display.
 
 Talks, press, and podcasts:
 
@@ -61,6 +60,7 @@ Talks, press, and podcasts:
 * [Brain-Machine Interface Isn't Sci-fi Anymore](https://www.wired.com/story/brain-machine-interface-isnt-sci-fi-anymore/), Steven Levy, Wired, September 2017.
 * [Facebook buys startup building neural monitoring armband](https://techcrunch.com/2019/09/23/facebook-buys-startup-building-neural-monitoring-armband/),
   TechCrunch, September 2019.
+* [Handwriting is my new favorite way to text with the Meta Ray-Ban Display glasses](https://www.engadget.com/wearables/handwriting-is-my-new-favorite-way-to-text-with-the-meta-ray-ban-display-glasses-213744708.html), Engadget, Jan 2026.
 
 ## Clarifai
 
@@ -199,7 +199,7 @@ Summers 1995, 1996
 
 ## Publications
 
-See [Google Scholar](https://scholar.google.com/citations?user=XlXvEfQAAAAJ).
+See [Google Scholar](https://scholar.google.com/citations?user=kwylb3sAAAAJ).
 
 
 ## Non-professional
